@@ -1,0 +1,89 @@
+ol{
+    list-style-type: none;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    background-color: #0208e2;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    margin-left: 3px;
+}
+
+body,html{
+    height: 100vh;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.footer{
+    flex-shrink: 0;
+    background-color: #576eff;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.x{
+    background-color: #ebe8ff;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+.x:hover{
+    background-color: #3df0ff;
+    color: #6e7eff;
+}
+
+.active{
+    background-color: black;
+    color: #ebe8ff;
+}
+.Ingiza{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.mwili{
+    background-image: linear-gradient(#4fffa5,#d8ff9a,#ffc699);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    display: flex;
+}
+.not{
+    display: flex;
+}
+.g{
+    display: flex;
+}
+.v{
+    display: flex;
+}
+doc{
+    background-color: #3df0ff;
+}
+.fom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
